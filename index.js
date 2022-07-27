@@ -1,3 +1,5 @@
+document.querySelector("#button").addEventListener("click",rollDice)
+
 function rollDice() {
     let m1 = document.getElementById("1");
     let m2 = document.getElementById("2");
